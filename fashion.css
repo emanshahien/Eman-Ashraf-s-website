@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+body{scroll-behavior:smooth; }
+
+
+.banner{
+    width: 100%;
+    height:100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(background.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    
+}
+    
+
+
+
+.logo{
+    
+    color: white;
+    font-size: 60px;
+}
+
+
+
+.navbar{
+    font-size: 25px;
+    width: 55%;
+    margin: auto;
+    padding: 5px 0;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between; 
+    position: absolute; 
+    top:10%;
+    left: 8%;
+    
+}
+
+.navbar ul li{
+    list-style:  none;
+    display: inline-block;
+    margin: 0 20px;
+    position:relative;
+}
+.navbar ul li a { 
+    text-decoration: none;
+    color: #fff;
+    
+}
+.navbar ul li::after{
+    content:'';
+    height: 3px;
+    width: 0;
+    background: maroon;
+    position: absolute;
+    left: 0; 
+    bottom: -10px ;
+    transition: 0.25s;
+}
+
+.navbar ul li:hover:after{
+    width: 100%;
+}
+
+
+
+    
+.navbar2 {
+    font-size: 22px;
+    width: 55%;
+    margin: auto;
+    padding: 5px 0;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between; 
+    position: absolute; 
+    top: 5%;
+    left: 42%;
+    
+}
+
+
+    
+
+
+
+.navbar2 ul li{
+    list-style:  none;
+    display: inline-block;
+    margin: 0 20px;
+    position:relative;
+}
+.navbar2 ul li a { 
+    text-decoration: none;
+    color: #fff;
+
+}
+.navbar2 ul li::after{
+    content:'';
+    height: 3px;
+    width: 0;
+    background: red;
+    position: absolute;
+    left: 0; 
+    bottom: -10px ;
+    transition: 0.25s;
+}
+
+.navbar2 ul li:hover:after{
+    width: 100%;
+}
+
+
+.logo{
+    width: 270px;
+    cursor:pointer;
+}
+
+.content{
+    color: white;
+    font-size:100px;
+    position: absolute;
+    top: 30%;
+    left: 8%
+ 
+}
+
+
+.acc{ 
+    position:absolute; 
+    top: -20%;
+    left: 200%; 
+    color: white;
+    font-size: 40px
+}
+
+.men{
+    
+    
+     position:absolute; 
+    top: -20%;
+    left: 150%; 
+    color: white;
+    font-size: 40px
+    
+}
+
+
+.women{
+    
+    
+     position:absolute; 
+    top: 120%;
+    left: 175%; 
+    color: white;
+    font-size: 40px;
+    
+
+}
+
+.shopnow{
+    
+    position: absolute;
+    top: 69%;  
+    left:12%;
+}
